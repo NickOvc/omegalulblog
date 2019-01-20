@@ -22,4 +22,11 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
-test readme update
+
+required ruby version: 2.5.1p57
+
+required terminal commands:
+
+-bundle install
+-rails db:migrate
+-rails s
