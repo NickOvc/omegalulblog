@@ -1,0 +1,17 @@
+<h3>Add a comment:</h3>
+<%= form_with(model: [ @post, @post.comments.build ], local: true) do |form| %>
+
+  <p>
+    <%= form.label :username %><br>
+    <%= form.text_field :username %>
+  </p>
+
+  <p>
+    <%= form.label :body %><br>
+    <%= form.text_area :body %>
+  </p>
+
+  <p>
+    <%= form.submit %>
+  </p>
+<% end %>
